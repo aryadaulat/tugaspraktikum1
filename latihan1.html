@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Latihan Praktikum Pemweb</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#bio">Tentang Saya</a></li>
+				<li><a href="#experience">Pengalaman Kerja</a></li>
+				<li><a href="#contactme">Hubungi Saya</a></li>
+			</ul>
+		</nav>
+	</header>
+	<div class="imagesview">
+		<img
+		src="https://media-exp1.licdn.com/dms/image/C5603AQGkcbw7xKekaw/profile-displayphoto-shrink_200_200/0/1647318358303?e=2147483647&v=beta&t=SYT7hnwBYXHjvt6pxDF3sQn21MSboMJMq4e6ls7pyCE"
+		alt="fotodiri"
+		width="200"
+		/>
+	</div>
+	<h1>
+		Hay Saya Arya Daulat
+	</h1>
+	<p>
+		Saya Mahasiswa Teknik Informatika Institut Teknologi Sumatera
+	</p>
+	
+	<article id="bio">
+		<h2>I'm Arya Daulat</h2>
+		<p>
+			Saya seorang yang minat dan menekuni bidang pengembangan Software Engginer terkhususnya Mobile Engginer
+			dan Project Manager, yang paling utama bagi saya adlaah management waktu , karena dalam bekerja itu waktu
+			adalah hal yang paling penting
+		</p>
+		<p>
+			Saya lahir di Provinsi DKI Jakarta dan kuliah di Institut Teknologi Sumatera di Provinsi Lampung dengan
+			sedikit pengalaman di kampus
+		</p>
+		<video width="640" height="480" autoplay muted>
+			<source
+				src="https://firebasestorage.googleapis.com/v0/b/moanaarya.appspot.com/o/WhatsApp%20Video%202022-03-12%20at%2008.35.38.mp4?alt=media&token=ad38e6f8-c7bb-4498-9b28-bccd26aa3672"
+				type="video/mp4"
+				>
+			Your browser does not support the video tag.
+		</video>
+	</article>
+	<article id="experience">
+		<h2>Experience</h2>
+		<table>
+			<thead>
+				<tr>
+					<th rowspan="2">No.</th>
+					<th rowspan="2">Posisi</th>
+					<th rowspan="2">Perusahaan</th>
+					<th colspan="2">Waktu</th>
+				</tr>
+				<tr>
+					<th>Mulai</th>
+					<th>Selesai</th>
+				</tr>
+			</thead>
+			<tr>
+				<td>1</td>
+				<td>Project Manager</td>
+				<td>Klinik Chika Medika</td>
+				<td>Februari 2021</td>
+				<td>Mei 2021</td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Back-end Enginner</td>
+				<td>Dinas Pertanian Bandar Lampung</td>
+				<td>Mei 2021</td>
+				<td>Oktober 2021</td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>CEO</td>
+				<td>Balawa</td>
+				<td>November 2021</td>
+				<td>Februari 2022</td>
+			</tr>
+			<tr>
+				<td>4</td>
+				<td>CEO</td>
+				<td>MadyOLife</td>
+				<td>Juni 2021</td>
+				<td>NOW</td>
+			</tr>
+			<tr>
+				<td>5</td>
+				<td>Mobile Developer</td>
+				<td>Pt. Inti Teknologi Software</td>
+				<td>Agustus 2022</td>
+				<td>NOW</td>
+			</tr>
+		</table>
+	</article>
+	<article id="contactme">
+		<h2>Hubungi Saya</h2>
+		<form>
+			<label for="fname">Name:</label><br>
+			<input type="text" id="fname" name="fname"><br>
+			<p>Sudah Nonton Video Saya?</p>
+			<input type="radio" id="done" name="option" value="DONE">
+			<label for="done">Sudah</label>
+			<input type="radio" id="notdone" name="option" value="NOTDONE">
+			<label for="notdone">Belum</label><br>
+
+			<p>Apakah Kamu Tertarik Dengan Biodata saya?</p>
+			<input type="checkbox" id="pilihan1" name="pilihan1" value="tertarik">
+			<label for="pilihan1"> Tertarik</label><br>
+			<input type="checkbox" id="pilihan2" name="pilihan2" value="kurangtertarik">
+			<label for="pilihan2"> Kurang Tertarik</label><br>
+			<input type="checkbox" id="pilihan3" name="pilihan3" value="tidaktertarik">
+			<label for="pilihan3"> Tidak Tertarik</label>
+			<div class="submitbutton">
+				<input type="submit" value="Kirim">
+			</div>
+		</form>
+	</article>
+	<footer id="footer">
+		&copy; 2022, Arya Daulat
+	</footer>
+</body>
+
+</html>
