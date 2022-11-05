@@ -9,6 +9,17 @@ body {
 	font-family: sans-serif;
 	margin-left: 30px;
 	margin-bottom: 30px;
+	background-color: white;
+  color: black;
+}
+.dark-mode {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+	margin-left: 30px;
+	margin-bottom: 30px;
+  background-color: black;
+  color: white;
 }
 header{
 	display: flex;
@@ -51,4 +62,7 @@ footer {
 }
 .submitbutton{
 	margin-top: 30px;
+}
+.buttontema{
+	margin-right: 30px;
 }
